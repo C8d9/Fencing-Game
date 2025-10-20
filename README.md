@@ -42,21 +42,6 @@ The valid counters to moves are based on this logic tree of epee fencing. In thi
 
 ![Logic of fencing](https://github.com/user-attachments/assets/fd2841c2-fea7-4f85-b0c2-44f6257167ee)
 
-This logic is stored like so inside the project:
-```bash
-moves = {
-        "Lunge": ["Parry-Riposte", "Stophit", "Distance"],
-        "Marche-Lunge": ["Parry-Riposte", "Stophit", "Distance"],
-        "Fleche": ["Parry-Riposte"],
-        "Parry-Riposte": ["Parry-Riposte", "Stophit", "Distance", "Redoublement"],
-        "Stophit": ["Parry-Riposte", "Stophit"],
-        "Distance": ["Redoublement", "Distance", "Parry-Riposte", "Stophit"],
-        "Redoublement": ["Parry-Riposte", "Stophit", "Distance"]
-    }
-
-moves_with_feint = ["Lunge", "Marche-Lunge", "Stophit", "Distance", "Redoublement", "Parry-Riposte"]
-```
-
 #### Changes to fencing logic for gameplay
 
 - Reprise has not been implemented because it is almost like a redoublement, making no change to the gameplay.
