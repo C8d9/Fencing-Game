@@ -4,6 +4,10 @@
 
 ---
 
+## Documentation
+
+See [documentation](DOCUMENTATION.md)
+
 ## Features
 
 - **Reactive AI**: Opponents simulate different personalities (Aggressive, Defensive, Unpredictable) and adapt to player behavior.
