@@ -64,21 +64,6 @@ The user wins if the computer falls for a feint and attempts to parry.
 
 ---
 
-## Installation
-
-### Prerequisites
-
-- Python 3.8 or higher
-- Tkinter (included with most Python distributions)
-
-### Clone and Run
-
-```bash
-git clone https://github.com/<your-github-username>/fencing-game.git
-cd fencing-game
-python fencing_game.py
-```
-
 ## Project Structure
 ```bash
 fencing-game/
